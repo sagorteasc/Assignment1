@@ -10,11 +10,17 @@
     font-weight: bolder;
     color: #0D1321;
 }
+.description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70px;
+}
 
-/* Banner style */
+/* Banner styles */
 .banner{
     background-image: url(/assets/Hero-bg.png);
     text-align: center;
+    margin-bottom: 74px;
 }
 .banner-photo{
     width: 173px;
@@ -28,10 +34,6 @@
     margin-bottom: 24px;
     font-size: 48px;
 }
-.banner-description{
-    font-size: 16px;
-    color: #0D1321;
-}
 .btn-1{
     background-color: #0D1321;
     color: #FFFFFF;
@@ -41,4 +43,151 @@
     margin-bottom: 45px;
     padding: 21px 24px;
     border-radius: 8px;
+}
+
+/* Why development important styles */
+.card-container{
+    margin: auto;
+    padding: 80 px 97px;
+    width: 1140px;
+    border-radius: 16px;
+    margin-bottom: 90px;
+}
+.card-container .card-header{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+    font-weight: bolder;
+    font-size: 32px;
+    margin-top: 154px;
+}
+.card-container .card-header-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70px;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 70px;
+}
+.card-1{
+    margin-bottom: 32px;
+    display: flex;
+}
+.card-1 .card-1-imp{
+    padding: 48px;
+    flex-direction: column;
+    margin: auto;
+}
+.card-1 .card-subtitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    margin-bottom: 16px;
+}
+.card-1 .card-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70px;
+    margin-bottom: 32px;
+}
+.card-1 .btn-2{
+    color: #0D1321;
+    padding: 12px 20px;
+    opacity: 70px;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.card-1-pic{
+    justify-content: center;
+    padding: 48px;
+    margin-left: 98px;
+}
+.card-2{
+    margin-bottom: 32px;
+    display: flex;
+}
+.card-2 .card-2-imp{
+    padding: 48px;
+    margin: auto;
+    justify-content: center;
+}
+.card-2 .card-subtitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    margin-bottom: 16px;
+}
+.card-2 .card-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70px;
+    margin-bottom: 32px;
+}
+.card-2 .btn-2{
+    color: #0D1321;
+    padding: 12px 20px;
+    opacity: 70px;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.card-2 .card-2-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+}
+.card-3{
+    margin-bottom: 80px;
+    display: flex;
+}
+.card-3 .card-3-imp{
+    padding: 48px;
+    flex-direction: column;
+    margin: auto;
+}
+.card-3 .card-subtitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    margin-bottom: 16px;
+}
+.card-3 .card-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70px;
+    margin-bottom: 32px;
+}
+.card-3 .btn-2{
+    color: #0D1321;
+    padding: 12px 20px;
+    opacity: 70px;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.card-3-pic{
+    justify-content: center;
+    padding: 48px;
+    margin-left: 98px;
+}
+
+/* Inspiration style */
+.inspiration{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.inspiration .inspiration-title{
+    color: #0D1321;
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.inspiration .inspiration-description{
+    margin-bottom: 48px;
+    font-size: 16px;
+    color: #0D1321;
+}
+.video{
+    padding: 32px;
 }
