@@ -191,3 +191,94 @@
 .video{
     padding: 32px;
 }
+
+/* Target style */
+.target{
+    text-align: center;
+    gap: 24px;
+}
+.target-title{
+    font-size: 32px;
+}
+.target-description{
+    margin-bottom: 48px;
+    font-size: 16px;
+    color: #0D1321;
+}
+.target-card{
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 111px;
+}
+.target-section1{
+    padding: 30px;
+}
+.sec1-pic{
+    margin-bottom: 24px;
+    display: flex;
+    text-align: left;
+}
+.sec1-title{
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.sec1-description{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.sec1-link{
+    display: flex;
+    text-align: left;
+}
+.target-section2{
+    padding: 30px;
+}
+.sec2-pic{
+    margin-bottom: 24px;
+    display: flex;
+    text-align: left;
+}
+.sec2-title{
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.sec2-description{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.sec2-link{
+    display: flex;
+    text-align: left;
+}
+.target-section3{
+    padding: 30px;
+}
+.sec3-pic{
+    margin-bottom: 24px;
+    display: flex;
+    text-align: left;
+}
+.sec3-title{
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.sec3-description{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.sec3-link{
+    display: flex;
+    text-align: left;
+}
