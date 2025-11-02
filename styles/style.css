@@ -44,6 +44,10 @@
     padding: 21px 24px;
     border-radius: 8px;
 }
+.btn-1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 /* Why development important styles */
 .card-container{
@@ -281,4 +285,79 @@
 .sec3-link{
     display: flex;
     text-align: left;
+}
+
+/* Conclusion style */
+.conclusion-container{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 150px 80px 150px;
+    gap: 16px;
+    height: 500%;
+}
+.conclusion-head{
+    padding: 64px 205px 24px;
+}
+.conclusion-title{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.conclusion-description{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.form{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+.form input{
+    padding: 19px 20px;
+    width: 548px;
+    border: none;
+    border-radius: 8px;
+    color: #0D1321;
+    font-size: 16px;
+}
+.form-btn{
+    font-weight: 600px;
+    font-size: 20px;
+    padding: 17px 20px;
+    color: #0D1321;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Footer style */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.footer-title{
+    font-weight: 600px;
+    font-size: 20px;
+    color: #0D1321;
+    padding: 32px 150px;
+}
+.footer-img{
+    padding: 60px 150px;
+}
+.fb{
+    margin-right: 24px;
+}
+.git{
+    margin-right: 24px;
 }
