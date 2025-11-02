@@ -194,6 +194,7 @@
 }
 .video{
     padding: 32px;
+    border-radius: 16px;
 }
 
 /* Target style */
@@ -345,6 +346,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 0px;
+    background-color: rgba(13, 19, 33, 0.20);
 }
 .footer-title{
     font-weight: 600px;
